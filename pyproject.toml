@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "customauth-exemple"
+version = "0.1.0"
+description = ""
+authors = ["wayupkg <adikgk232323@gmail.com>"]
+readme = "README.md"
+packages = [{include = "customauth_exemple"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.5"
+djoser = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
